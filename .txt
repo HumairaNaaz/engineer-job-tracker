@@ -1,0 +1,47 @@
+placement-tracker/
+│
+├── backend/
+│   ├── node_modules/          ← installed packages (auto-generated, don't touch)
+│   ├── db.json                ← auto-created database file (stores tracked applications)
+│   ├── package.json           ← lists backend dependencies & scripts
+│   ├── package-lock.json      ← exact dependency versions (auto-generated)
+│   └── server.js              ← ALL backend code: Express setup + routes + RemoteOK API calls
+│
+└── frontend/
+    ├── node_modules/          ← installed packages (auto-generated, don't touch)
+    ├── public/
+    │   ├── favicon.svg
+    │   └── (other static assets)
+    ├── src/
+    │   ├── assets/             ← default Vite images (not used by you)
+    │   ├── components/
+    │   │   ├── JobsList.jsx           ← shows live jobs, search bar, category filter
+    │   │   └── ApplicationTracker.jsx ← shows tracked jobs, status dropdown, delete button
+    │   ├── App.jsx              ← main page layout (title, stats, grid of both columns)
+    │   ├── App.css              ← all styling (cards, colors, layout, filters)
+    │   ├── main.jsx              ← entry point that loads App.jsx into the page
+    │   └── index.css             ← default Vite base styles (barely used)
+    ├── index.html               ← the actual HTML page (has the color-scheme fix)
+    ├── package.json              ← lists frontend dependencies & scripts
+    ├── package-lock.json
+    └── vite.config.js            ← Vite configuration (usually untouched)
+    
+    Files you edit regularly:
+
+backend/server.js — all backend logic
+frontend/src/App.jsx — main layout
+frontend/src/App.css — all styling
+frontend/src/components/JobsList.jsx — job listing + filters
+frontend/src/components/ApplicationTracker.jsx — tracked applications
+
+Files you never touch:
+
+node_modules/ (both folders) — managed automatically by npm install
+package-lock.json — auto-generated, don't edit manually
+db.json — auto-generated/updated by your backend when you track jobs
+
+Files you touch rarely (only for config):
+
+package.json (both) — only when adding new libraries
+index.html — only if adding meta tags (like the color-scheme fix)
+vite.config.js — only for advanced Vite settings
