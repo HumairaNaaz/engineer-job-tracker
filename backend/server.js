@@ -11,7 +11,7 @@ const requireAuth = require('./middleware/auth');
 
 const app = express();
 app.use(cors({
-  origin: '*', // we'll tighten this after frontend is deployed
+  origin: 'https://engineer-job-tracker.vercel.app/', // we'll tighten this after frontend is deployed
 }));app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
