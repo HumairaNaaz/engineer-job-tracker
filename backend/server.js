@@ -10,8 +10,9 @@ const authRoutes = require('./routes/auth');
 const requireAuth = require('./middleware/auth');
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: '*', // we'll tighten this after frontend is deployed
+}));app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Connected to MongoDB'))
