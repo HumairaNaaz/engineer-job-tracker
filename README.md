@@ -95,8 +95,6 @@ npm run dev
 \`\`\`
 
 ## 📸 Screenshots
-## 📸 Screenshots
-
 
 ### Kanban Dashboard
 ![Kanban Dashboard](./screenshots/Dashboard.png)
