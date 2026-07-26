@@ -17,13 +17,59 @@ A full-stack MERN application that helps engineering students and job seekers di
 - 📱 Fully responsive design
 - 💼 Custom favicon and branded page title
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technology Used
 
-**Frontend:** React, Vite, React Router, Axios
-**Backend:** Node.js, Express, JWT, bcrypt
-**Database:** MongoDB Atlas + Mongoose
-**AI:** Groq API (Llama 3.3)
-**Third-party API:** RemoteOK
+### Frontend
+| Tool | Purpose |
+|---|---|
+| **React (Vite)** | Component-based UI with fast builds and instant hot-reload |
+| **React Router** | Client-side routing and protected pages (Login/Signup/Dashboard) |
+| **Axios** | Simplified HTTP requests to the backend API |
+| **CSS (custom)** | Full control over styling without a framework |
+
+### Backend
+| Tool | Purpose |
+|---|---|
+| **Node.js** | JavaScript runtime for the server, same language as the frontend |
+| **Express.js** | Lightweight framework for building REST API routes |
+| **CORS** | Allows the deployed frontend to securely communicate with the backend |
+| **dotenv** | Keeps secrets (DB credentials, API keys) out of the codebase |
+
+### Database
+| Tool | Purpose |
+|---|---|
+| **MongoDB Atlas** | Cloud-hosted NoSQL database for persistent storage |
+| **Mongoose** | Schema modeling and clean, structured database queries |
+
+### Authentication & Security
+| Tool | Purpose |
+|---|---|
+| **bcryptjs** | Hashes user passwords before storing them |
+| **jsonwebtoken (JWT)** | Issues secure tokens to keep users logged in and protect private routes |
+
+### AI Integration
+| Tool | Purpose |
+|---|---|
+| **Groq API (Llama 3.3)** | Powers AI interview prep questions, cover letter generation, and job fit scoring |
+
+### Third-Party Data
+| Tool | Purpose |
+|---|---|
+| **RemoteOK API** | Supplies live, real-world engineering job listings |
+
+### Deployment
+| Tool | Purpose |
+|---|---|
+| **Render** | Hosts the Node/Express backend |
+| **Vercel** | Hosts the React frontend with automatic deployments from GitHub |
+
+### Dev Tools
+| Tool | Purpose |
+|---|---|
+| **VS Code** | Code editor with integrated terminal |
+| **nodemon** | Auto-restarts the backend server on file changes during development |
+| **npm** | Installs and manages all project dependencies |
+| **Git & GitHub** | Version control and source code hosting |
 
 ## 🚀 Getting Started Locally
 
