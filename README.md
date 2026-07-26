@@ -97,8 +97,6 @@ npm run dev
 ## 📸 Screenshots
 ## 📸 Screenshots
 
-### Login Page (live preview)
-![Login Page](https://s.wordpress.com/mshots/v1/https%3A%2F%2Fengineer-job-tracker.vercel.app%2Flogin?w=1000)
 
 ### Kanban Dashboard
 ![Kanban Dashboard](./screenshots/Dashboard.png)
@@ -107,7 +105,7 @@ npm run dev
 ![AI Interview Prep](./screenshots/aiInterviewPrep.png)
 
 ### Login Page
-![Login Page](./screenshots/login(2).png)
+![Login Page](./screenshots/Login1.png)
 
 
 ## 👩‍💻 Author
